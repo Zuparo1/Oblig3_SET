@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="LeapYear" />
-        <module name="Oblig3_SET" />
+        <module name="LeapYearTesting" />
       </profile>
     </annotationProcessing>
   </component>

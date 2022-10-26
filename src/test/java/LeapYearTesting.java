@@ -20,7 +20,7 @@ public class LeapYearTesting extends Assertions {
         assertFalse(LeapYear.isLeapYear(argument));
     }
     @ParameterizedTest
-    @ValueSource(ints = {500, 700, 1100, 1800, 2001, 2006, 2010, 2013})
+    @ValueSource(ints = {500, 700, 1100, 1800, 2001, 2006, 2010})
     public void must_return_false_when_divideble_by_100_but_not_by_400(int argument){
         assertFalse(LeapYear.isLeapYear(argument));
     }

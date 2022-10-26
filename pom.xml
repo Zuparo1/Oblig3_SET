@@ -55,7 +55,7 @@
                 <includes>
                     <include>LeapYearTesting*</include>
                 </includes>
-                <testFailureIgnore>true</testFailureIgnore>
+                <!--testFailureIgnore>true</testFailureIgnore-->
             </configuration>
             <version>2.21.0</version>
             <dependencies>

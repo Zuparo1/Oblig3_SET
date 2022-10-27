@@ -21,7 +21,7 @@
             <version>5.9.0</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
+        <!--dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.9.0</version>
@@ -38,29 +38,28 @@
             <artifactId>junit-jupiter-params</artifactId>
             <version>5.9.0</version>
             <scope>test</scope>
-        </dependency>
+        </dependency-->
     </dependencies>
     <build>
     <plugins>
-        <plugin>
+        <!--plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-
             <configuration>
                 <source>1.8</source>
                 <target>1.8</target>
             </configuration>
-        </plugin>
+        </plugin-->
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
-            <configuration>
+            <!--configuration>
                 <includes>
                     <include>LeapYearTesting*</include>
                 </includes>
-            </configuration>
-            <version>2.21.0</version>
-            <dependencies>
+            </configuration-->
+            <version>2.22.2</version>
+            <!--dependencies>
                 <dependency>
                     <groupId>org.junit.platform</groupId>
                     <artifactId>junit-platform-surefire-provider</artifactId>
@@ -71,7 +70,7 @@
                     <artifactId>junit-jupiter-engine</artifactId>
                     <version>5.2.0-M1</version>
                 </dependency>
-            </dependencies>
+            </dependencies-->
         </plugin>
     </plugins>
     </build>

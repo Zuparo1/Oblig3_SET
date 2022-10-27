@@ -53,11 +53,11 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
-            <!--configuration>
+            <configuration>
                 <includes>
                     <include>LeapYearTesting*</include>
                 </includes>
-            </configuration-->
+            </configuration>
             <version>2.22.2</version>
             <!--dependencies>
                 <dependency>
